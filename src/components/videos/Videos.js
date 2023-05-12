@@ -4,7 +4,7 @@ import VideoLoader from "./../ui/loaders/VideoLoader";
 import Error from "../ui/Error";
 export default function Videos() {
   const { data: videos, isLoading, isError } = useGetVideosQuery();
-  //decide what to render:
+  //decide what to render dynamically:
   let content = null;
 
   if (isLoading) {

@@ -41,10 +41,8 @@ export default function Video() {
             {content}
           </div>
           {video.id
-            ? <RelatedVideos />
-            : 
-               <RelatedVideoLoader />
-              }
+            ? <RelatedVideos id={video.id} title={video.title} />
+            : <RelatedVideoLoader />}
         </div>
       </div>
     </section>
