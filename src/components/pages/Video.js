@@ -6,7 +6,7 @@ import RelatedVideos from "../video/related/RelatedVideos";
 import PlayerLoader from "./../ui/loaders/PlayerLoader";
 import DescriptionLoader from "./../ui/loaders/DescriptionLoader";
 import Error from "./../ui/Error";
-import RelatedVideoLoader from './../ui/loaders/RelatedVideoLoader';
+import RelatedVideoLoader from "./../ui/loaders/RelatedVideoLoader";
 
 export default function Video() {
   const { videoId } = useParams();
@@ -27,11 +27,11 @@ export default function Video() {
   if (!isLoading && !isError && video.id) {
     content = (
       <div>
-        <Player link={video.link} title={video.title}/>
+        <Player link={video.link} title={video.title} />
         <Description video={video} />
       </div>
     );
-  }  
+  }
 
   return (
     <section className="pt-6 pb-20 min-h-[calc(100vh_-_157px)]">
@@ -40,7 +40,11 @@ export default function Video() {
           <div className="col-span-full w-full space-y-8 lg:col-span-2">
             {content}
           </div>
-          {video.id ? <RelatedVideos id={video.id} title={video.title}/> : isLoading?<><RelatedVideoLoader></RelatedVideoLoader> <RelatedVideoLoader></RelatedVideoLoader> </> : <Error message="There was an error"></Error>}
+          {video.id
+            ? <RelatedVideos />
+            : 
+               <RelatedVideoLoader />
+              }
         </div>
       </div>
     </section>
