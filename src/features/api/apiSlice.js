@@ -21,6 +21,14 @@ export const apiSlice = createApi({
         const queryString = `/videos?${likes.join("&")} &_limit=4`;
         return queryString;
       }
+    }),
+
+    addVideo: builder.mutation({
+      query: body => ({
+        url: `/videos`,
+        method: "POST",
+        body: data
+      })
     })
   })
 });
