@@ -49,18 +49,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg"
     },
     {
-      "id": 5,
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "title": "SASS Tutorial in English - Overview of SASS",
-      "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-      "author": "Learn with Sumit",
-      "date": "Nov 22, 2021",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-      "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
-    },
-    {
       "id": 6,
       "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
       "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
@@ -71,30 +59,6 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
       "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
-    },
-    {
-      "id": 7,
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
-      "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
-      "author": "Learn with Sumit",
-      "date": "Oct 15, 2021",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
-      "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg"
-    },
-    {
-      "title": "new",
-      "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-      "author": "apurbo",
-      "description": "new",
-      "date": "14 may",
-      "duration": "10,45",
-      "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-      "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
-      "views": "10k",
-      "id": 8
     }
   ]
 }
